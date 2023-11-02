@@ -6,9 +6,9 @@ public class DatatypesPremitive {
         System.out.println(num_2);
         short num_3 = 155;          // 2 byte
         System.out.println(num_3);
-        long num_4 = 155144413;     // 8 byte
+        long num_4 = 155144413999999999l;     // 8 byte, need l ast last
         System.out.println(num_4);
-        float num_5 = 12.6f;        // 4 byte
+        float num_5 = 12.6f;        // 4 byte, need f at last
         System.out.println(num_5);
         double num_6 = 1233.88877;  // 8 byte
         System.out.println(num_6);
